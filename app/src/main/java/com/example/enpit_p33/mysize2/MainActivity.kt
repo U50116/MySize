@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
             waist.setText(editWaist)
             inseam.setText(editInseam)
         }
-
         save.setOnClickListener{onSaveTapped() }
 
         heightButton.setOnClickListener{
